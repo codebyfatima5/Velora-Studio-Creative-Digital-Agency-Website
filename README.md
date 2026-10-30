@@ -1,109 +1,32 @@
-# Velora Studio – Creative Digital Agency Website
+# Velora Studio — Interactive Business Website
 
-A modern, responsive, multi-page business website built using **HTML5, CSS3, and Vanilla JavaScript**. Velora Studio is a fictional creative digital agency designed to showcase professional web development, branding, and UI/UX design services.
+A responsive five-page digital agency website built with HTML5, CSS3 and Vanilla JavaScript.
 
-## Project Overview
+## Pages
+- Home (`index.html`)
+- About (`about.html`)
+- Services (`services.html`)
+- Portfolio (`portfolio.html`)
+- Contact (`contact.html`)
 
-Velora Studio provides a clean, modern, and user-friendly digital experience with an elegant dark theme, purple accents, interactive elements, and responsive layouts.
+## Interactive features
+1. Responsive mobile navigation
+2. Home page image/testimonial slider
+3. FAQ accordion
+4. Contact form validation
+5. Scroll-to-top button
+6. Dark/light mode (preference saved in localStorage)
+7. Animated counters
+8. Typing animation
+9. Portfolio category filters
+10. Scroll reveal effects
 
-The website demonstrates front-end development skills through multiple pages and interactive JavaScript features.
+## Run locally
+Open `index.html` in your browser, or use the VS Code Live Server extension.
 
-##  Features
-
-- **Home Page:** Hero section, introduction, statistics, featured projects, and testimonial slider.
-- **About Page:** Company introduction, mission, vision, values, and team section.
-- **Services Page:** Digital services with descriptions and pricing.
-- **Portfolio Page:** Project gallery with category-based filtering.
-- **Contact Page:** Contact information and interactive contact form with validation.
-
-### JavaScript Functionality
-
-- Responsive navigation menu
-- Image/Testimonial slider
-- FAQ accordion
-- Contact form validation
-- Scroll-to-top button
-- Dark and light mode
-- Animated counters
-- Typing animation
-- Portfolio category filters
-- Scroll reveal animations
-- Theme preference saved using Local Storage
-
-##  Technologies Used
-
-- HTML5
-- CSS3
-- JavaScript (Vanilla JS)
-- Google Fonts
-- Unsplash Images
-
-## Project Structure
-
-```text
-Velora-Studio/
-│
-├── index.html
-├── about.html
-├── services.html
-├── portfolio.html
-├── contact.html
-├── style.css
-├── script.js
-└── README.md
-```
-
-##  Design Highlights
-
-- Modern dark UI with purple accents
-- Clean typography and professional layouts
-- Consistent design across all five pages
-- Responsive cards and navigation
-- Smooth transitions and hover effects
-- Mobile-friendly user experience
+## Images
+Images are loaded directly from Unsplash URLs in the HTML/CSS. There is no separate images folder. An internet connection is required for remote images and Google Fonts.
 
 
-##  Responsive Design
-
-The website is designed to work across:
-
-- Desktop computers
-- Laptops
-- Tablets
-- Mobile devices
-
-## Contact Form
-
-The contact form includes front-end JavaScript validation for name, email, and message fields.
-
-**Note:** The form currently works as a front-end demonstration. A backend or form service is required to receive actual messages.
-
-##  Deployment
-
-This project can be deployed using:
-
-- GitHub Pages
-- Netlify
-
-##  Learning Objectives
-
-This project was developed to strengthen practical skills in:
-
-- Semantic HTML structure
-- CSS styling and responsive layouts
-- Vanilla JavaScript DOM manipulation
-- Event handling and form validation
-- Interactive UI development
-- Multi-page website navigation
-
-## Author
-
-**Fatima Haider**
-
-Frontend Developer 
-
-- GitHub: [codebyfatima5](https://github.com/codebyfatima5)
-
- If you like this project, consider giving it a star!
-
-**Built with creativity and code. **
+## Note
+The contact form currently validates input in the browser only. .
